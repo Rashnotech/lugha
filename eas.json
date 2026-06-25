@@ -5,13 +5,26 @@
   },
   "build": {
     "development": {
+      "node": "22.13.0",
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
     },
     "preview": {
-      "distribution": "internal"
+      "node": "22.13.0",
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
     },
-    "production": {}
+    "production": {
+      "node": "22.13.0",
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
   },
   "submit": {
     "production": {}
