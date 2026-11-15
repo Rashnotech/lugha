@@ -1,5 +1,6 @@
 export default {
   expo: {
+    owner: "rashnotech",
     name: "lugha",
     slug: "lugha",
     version: "1.0.0",
